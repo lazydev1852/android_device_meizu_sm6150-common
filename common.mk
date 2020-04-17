@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
+
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.rc
